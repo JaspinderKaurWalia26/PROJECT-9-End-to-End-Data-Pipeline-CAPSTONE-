@@ -1,0 +1,7 @@
+2026-02-09 12:11:46,017 - INFO - Posts API fetched successfully
+2026-02-09 12:11:46,019 - INFO - Users API fetched successfully
+2026-02-09 12:11:46,019 - INFO - Users data transformed
+2026-02-09 12:11:46,019 - INFO - Posts data transformed
+2026-02-09 12:11:46,025 - INFO - Data saved to data/users.csv
+2026-02-09 12:11:46,027 - INFO - Data saved to data/posts.csv
+2026-02-09 12:11:46,027 - INFO - Pipeline executed successfully
