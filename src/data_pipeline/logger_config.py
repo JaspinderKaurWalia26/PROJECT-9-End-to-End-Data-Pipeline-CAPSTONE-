@@ -1,0 +1,19 @@
+import logging
+import os
+
+# setting log configuration
+def get_logger(name):
+    os.makedirs("logs", exist_ok=True)
+
+    logger = logging.getLogger(name)
+    logger.setLevel(logging.INFO)
+
+    if not logger.handlers:
+        handler = logging.FileHandler("logs/pipeline.log")
+        formatter = logging.Formatter(
+            "%(asctime)s - %(levelname)s - %(message)s"
+        )
+        handler.setFormatter(formatter)
+        logger.addHandler(handler)
+
+    return logger
